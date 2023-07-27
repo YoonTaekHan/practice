@@ -29,6 +29,11 @@
         <tr>
             <th>이름</th><th>인사말</th><th>시간</th>
         </tr>
+
+        <h3>
+            추가했다 이부분
+        </h3>
+        
         <?php
         if ($result->num_rows >0) {
             while ($row = $result->fetch_assoc()){ ?>
